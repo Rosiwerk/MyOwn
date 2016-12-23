@@ -1,0 +1,29 @@
+.nav {
+	&-float-right {
+		@mixin atMedium {
+			float: right;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		@mixin clearfix;
+	}
+
+	li {
+    	list-style: none;
+    	display: inline-block;
+    	border-bottom: 2px solid $blackGreen;
+    	
+    	@mixin atMedium {
+      		float: left;
+      		display: block;
+      		border-bottom: none;
+    	}
+  	}
+
+	li:last-child {
+    	padding-right: 0;
+  }
+}

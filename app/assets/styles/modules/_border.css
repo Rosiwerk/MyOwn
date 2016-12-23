@@ -1,0 +1,72 @@
+.border {
+
+	&-bottom1 {
+		display: block;
+		width: 80%;
+		height: 1px;
+		background-color: #FFF;
+		transition: all 0.35s ease-out;
+		transform-origin: 60% 0;
+		transform: scaleX(0);
+
+		@mixin atMedium {
+			display: none;
+		}
+	}
+
+	&-bottom2 {
+		width: 80%;
+		height: 1px;
+		background-color: #FFF;
+		transition: all 0.35s ease-out;
+		transform-origin: 60% 0;
+		transform: scaleX(0);
+
+		@mixin atMedium {
+			width: 80%;
+		}
+	}
+
+	&-bottom3 {
+		width: 80%;
+		height: 1px;
+		background-color: #FFF;
+		transition: all 0.35s ease-out;
+		transform-origin: 60% 0;
+		transform: scaleX(0);
+
+		@mixin atMedium {
+			width: 80%;
+		}
+	}
+
+	&-bottom4 {
+		width: 80%;
+		height: 1px;
+		background-color: #FFF;
+		transition: all 0.35s ease-out;
+		transform-origin: 60% 0;
+		transform: scaleX(0);
+
+		@mixin atMedium {
+			width: 80%;
+		}
+	}
+
+	&-bottom5 {
+		height: 1px;
+		background-color: #FFF;
+		transition: all 0.35s ease-out;
+		transform-origin: 60% 0;
+		transform: scaleX(0);
+
+		@mixin atMedium {
+			width: 80%;
+		}
+	}
+
+	&-is-visible {
+		width: 100%;
+		transform: scaleX(1);
+	}
+}

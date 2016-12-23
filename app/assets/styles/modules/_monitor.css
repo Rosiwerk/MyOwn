@@ -1,0 +1,25 @@
+.monitor-rosiwerk {
+	display: none;
+
+	@mixin atMedium {
+		margin-left: 20px;
+		position: relative;
+		background-color: $blackGreen;
+		border: 1px solid transparent;
+		border-radius: 10px;
+		display: block;
+		padding: 8px 12px;
+		text-decoration: none;
+		color: #FFF;
+		font-size: 23px;
+		font-weight: 100;
+		float: left;
+		left: auto;
+		z-index: 10;
+		transition: all 0.5s ease-out;
+	}
+}
+
+.monitor-rosiwerk:hover {
+	border-color: #FFF;
+}

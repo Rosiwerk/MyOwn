@@ -1,0 +1,84 @@
+.header-background {
+	margin-top: 0px; 
+	height: auto;
+	width: 100%;
+	position: relative;
+	display: block;
+
+	&-img {
+		top: 20px;
+		width: 100%;
+		height: auto;
+		background-size: cover;
+		display: block;
+
+		@mixin atSmall {
+			top: 0px;
+		}
+	}
+
+	&-text-div {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: auto;
+		z-index: 1;
+	}
+
+	&-text {
+		font-family: Dancing Script;
+		font-weight: 300;
+		text-align: center;
+		position: relative;
+		color: #FFF;
+		font-size: 70px;
+		z-index: 1;
+		margin-top: 20%;
+		padding: 0;
+		
+
+		@media (min-width: 300px) {
+			font-size: 100px;
+		}
+
+		@media (min-width: 400px) {
+			font-size: 120px;
+		}
+
+		@media (min-width: 470px) {
+			font-size: 120px;
+			margin-top: 15%;			
+		}
+
+		@mixin atSmall {
+			font-size: 140px;
+			
+		}
+
+		@media (min-width: 540px) {
+			font-size: 160px;
+		}
+
+		@media (min-width: 600px) {
+			font-size: 180px;
+		}
+
+		@mixin atMedium {
+			font-size: 220px;
+			
+		}
+
+		@media (min-width: 1000px) {
+			font-size: 240px;
+		}
+
+		@mixin atLarge {
+			font-size: 260px;
+			
+		}
+
+		@mixin atVeryLarge {
+			font-size: 320px;
+		}
+	}
+}
