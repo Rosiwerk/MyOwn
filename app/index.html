@@ -47,7 +47,7 @@
 		<div class="wrapper">
 			<div class="header-menu">
 
-				<a href="#" class="monitor-rosiwerk">
+				<a href="#header-background" class="monitor-rosiwerk wpl-befree" id="befree-link">
 				Be free
 				</a>
 
@@ -55,25 +55,25 @@
 					<ul>
 
 	            		<li class="header-mobile-list">
-	            			<a href="#" class="header-link2">Design
+	            			<a href="#design" class="header-link2" id="design-link">Design
 	            				<div class="border-bottom2"></div>
 	            			</a>
 	            		</li>
 
 	            		<li class="header-mobile-list">
-	            			<a href="#" class="header-link3">Features
+	            			<a href="#features" class="header-link3" id="features-link">Features
 	            				<div class="border-bottom3"></div>
 	            			</a>
 	            		</li>
 
 	            		<li class="header-mobile-list">
-	            			<a href="#" class="header-link4">About me
+	            			<a href="#aboutme" class="header-link4">About me
 	            				<div class="border-bottom4"></div>
 	            			</a>
 	            		</li>
 
 	            		<li class="header-mobile-list">
-							<a href="#" class="header-link1">Get Started
+							<a href="#getstarted" class="header-link1">Get Started
 								<div class="border-bottom1"></div>
 							</a>
 						</li>
@@ -88,7 +88,7 @@
 		<p class="header-background-text">Be&#32;free</p>
 	</div>
 
-	<div class="header-background">
+	<div class="header-background" data-matching-link="#befree-link" id="header-background">
 		<picture>
 			<source srcset="assets/images/header-large.png 1920w, assets/images/header-large.png 3840w" media="(min-width: 1280px)">
       		<source srcset="assets/images/header-medium.png 1280w, assets/images/header-medium.png 2560w" media="(min-width: 800px)">
@@ -101,15 +101,15 @@
 
 
 
-	<div class="design">
+	<div class="design" data-matching-link="#design-link" id="design">
 		<div class="wrapper">
 
 			<p class="design-title">
-			Choose any front-end developement.
+			Choose any front-end website developement.
 			</p>
 			
 			<p class="design-subtitle-up">
-			Recieve beautiful modern responsive design <br>created from
+			Recieve <strong class="green-strong">beautiful modern responsive</strong> design <br>created from
 			</p>
 
 			<nav class="design-nav">
@@ -135,10 +135,17 @@
 			</nav>
 
 			<p class="design-subtitle-down">
-			and other programming languages or libraries <br>which works in every single browser.
+			and other programming languages or libraries <br>which <strong>works in every single browser.</strong>
 			</p>
 
 		</div>
+	</div>
+
+
+
+
+	<div class="features" data-matching-link="#features-link" id="features">
+
 	</div>
 
 
@@ -150,7 +157,30 @@
 
 
 
-
+	<div class="lightbox">
+		<div class="lightbox-inner">
+			<p class="lightbox-main-text">
+				Get in <strong>touch</strong>
+			</p>
+			<p class="lightbox-description">
+				Connect with me on any of the platforms below!
+			</p>
+			<div class="lightbox-icons">
+		      <a href="#" class="lightbox-icon-a">
+		      	<img class="lightbox-icon" src="assets/images/icons/facebook.png">
+		      </a><a href="#" class="lightbox-icon-a">
+		      	<img class="lightbox-icon" src="assets/images/icons/twitter.png">
+		      </a><a href="#" class="lightbox-icon-a">
+		      	<img class="lightbox-icon" src="assets/images/icons/googleplus.png">
+		      </a><a href="#" class="lightbox-icon-a">
+		      	<img class="lightbox-icon" src="assets/images/icons/instagram.png">
+		      </a>
+		    </div>
+		</div>
+		<div class="lightbox-close">
+			X
+		</div>
+	</div>
 
 
 	<script src="temp/scripts/App.js"></script>

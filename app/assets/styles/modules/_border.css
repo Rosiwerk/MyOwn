@@ -70,3 +70,17 @@
 		transform: scaleX(1);
 	}
 }
+
+.design-is-current-link {
+	.border-bottom2 {
+		width: 100%;
+		transform: scaleX(1);
+	}
+}
+
+.features-is-current-link {
+	.border-bottom3 {
+		width: 100%;
+		transform: scaleX(1);
+	}
+}

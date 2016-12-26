@@ -21,4 +21,4 @@ class MobileMenu {
 	}
 }
 
-var mobileMenu = new MobileMenu();
+export default MobileMenu;

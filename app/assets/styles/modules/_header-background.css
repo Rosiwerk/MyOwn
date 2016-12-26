@@ -5,6 +5,10 @@
 	position: relative;
 	display: block;
 
+	@mixin at1920 {
+		height: 1009px;
+	}
+
 	&-img {
 		top: 20px;
 		width: 100%;
@@ -14,6 +18,10 @@
 
 		@mixin atSmall {
 			top: 0px;
+		}
+
+		@mixin at1920 {
+			height: 1009px;
 		}
 	}
 
@@ -26,6 +34,7 @@
 	}
 
 	&-text {
+		text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
 		font-family: Dancing Script;
 		font-weight: 300;
 		text-align: center;
@@ -65,7 +74,6 @@
 
 		@mixin atMedium {
 			font-size: 220px;
-			
 		}
 
 		@media (min-width: 1000px) {

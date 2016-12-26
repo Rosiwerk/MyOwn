@@ -20,6 +20,14 @@
 	}
 }
 
+.wpl-befree {
+	border-color: #FFF;
+}
+
 .monitor-rosiwerk:hover {
+	border-color: #FFF;
+}
+
+.befree-is-current-link {
 	border-color: #FFF;
 }

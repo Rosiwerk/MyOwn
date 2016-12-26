@@ -1,5 +1,6 @@
 .mobile-menu {
 	display: block;
+	position: relative;
 	height: 60px;
 	width: 100%;
 	background-color: $blackGreen;
@@ -26,7 +27,7 @@
 	&-icon {
 		width: 28px;
 		height: 26px;
-		z-index: 10;
+		z-index: 2;
 		position: absolute;
 		display: block;
 		top: 18px;
