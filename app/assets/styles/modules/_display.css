@@ -1,0 +1,11 @@
+.display {
+
+
+	&-inline-block-for-small {
+		display: inline-block;
+
+		@mixin atSmall {
+			display: all;
+		}
+	}
+}

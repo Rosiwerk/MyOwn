@@ -1,28 +1,15 @@
-.header-menu {
-	opacity: 100;
-	background-color: black;
-
-	@mixin atSmall {
-		opacity: 100;
-	}
-}
-
 .header {
 	z-index: 2;
 	background-color: rgba($darkestGreen, 0.8);
-	opacity: 0.999999;
 	width: 100%;
 	height: 0;
 	display: block;
-	transition: all 0.6s ease-out;
-	/*transition: opacity 0s;*/
+	transition: all 0.4s ease-out;
 	transform-origin: 50% 0;
 
 	&-is-visible {
-		visibility: visible;
 		height: 168px;
 		display: block;
-		opacity: 1;
 	}
 
 	&-link1 {
@@ -40,7 +27,6 @@
 		position: relative;
 		color: #FFF;
 		font-size: 18px;
-		z-index: 1;
 		text-decoration: none;
 	}
 
@@ -50,7 +36,6 @@
 		position: relative;
 		color: #FFF;
 		font-size: 18px;
-		z-index: 1;
 		text-decoration: none;
 	}
 
@@ -60,7 +45,6 @@
 		position: relative;
 		color: #FFF;
 		font-size: 18px;
-		z-index: 1;
 		text-decoration: none;
 	}
 
@@ -75,7 +59,7 @@
 		width: 100%;
 		height: 20px;
 		padding: 10px 0;
-		background-color: $darkGreen;
+		background-color: $mediumDarkGreen;
 		z-index: 1;
 		text-align: center;
 
@@ -86,10 +70,6 @@
 			background-color: transparent;
 			z-index: 1;
 		}
-	}
-
-	&-mobile-list:last-child {
-
 	}
 
 	@mixin atMedium {
@@ -104,8 +84,16 @@
 		padding: 11px 0;
 
 		&-sticky {
-			background-color: $darkestGreen;
+			background-color: rgba($blackGreen, 0.85);
 			padding: 7px 0;
+
+			.header-link1 {
+				background-color: $blackestGreen;
+			}
+
+			.monitor-rosiwerk {
+				background-color: $blackestGreen;
+			}
 		}
 
 		&-link1 {
@@ -179,8 +167,16 @@
 		padding: 22px 0;
 
 		&-sticky {
-			background-color: /*$darkestGreen*/rgba($darkestGreen, 0.85);
+			background-color: rgba($blackGreen, 0.85);
 			padding: 16px 0;
+
+			.header-link1 {
+				background-color: $blackestGreen;
+			}
+
+			.monitor-rosiwerk {
+				background-color: $blackestGreen;
+			}
 		}
 	}
 }

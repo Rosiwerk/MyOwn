@@ -76,7 +76,7 @@ class StickyHeader {
 						$(matchingHeaderLink).addClass("befree-is-current-link");	
 					}
 				},
-				offset: "-60%"
+				offset: "-30%"
 			});
 		});
 	}
@@ -97,7 +97,7 @@ class StickyHeader {
 						$(matchingHeaderLink).addClass("design-is-current-link");
 					}
 				},
-				offset: "8%"
+				offset: "38%"
 			});
 
 			new Waypoint({
@@ -112,7 +112,7 @@ class StickyHeader {
 						$(matchingHeaderLink).addClass("design-is-current-link");
 					}
 				},
-				offset: "-30%"
+				offset: "-85%"
 			});
 		});
 	}
@@ -133,7 +133,7 @@ class StickyHeader {
 						$(matchingHeaderLink).addClass("features-is-current-link");
 					}
 				},
-				offset: "8%"
+				offset: "38%"
 			});
 
 			new Waypoint({

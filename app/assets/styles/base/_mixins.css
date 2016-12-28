@@ -28,6 +28,12 @@
 	}
 }
 
+@define-mixin at1920+ {
+	@media (min-width: 1921px) {
+		@mixin-content;
+	}
+}
+
 @define-mixin clearfix {
 	&::after {
     content: "";

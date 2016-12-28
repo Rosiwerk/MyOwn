@@ -6,7 +6,11 @@
 	display: block;
 
 	@mixin at1920 {
-		height: 1009px;
+		height: 933px;
+	}
+
+	@mixin at1920+ {
+		height: auto;
 	}
 
 	&-img {
@@ -21,7 +25,11 @@
 		}
 
 		@mixin at1920 {
-			height: 1009px;
+			height: 933px;
+		}
+
+		@mixin at1920+ {
+			height: auto;
 		}
 	}
 
@@ -87,6 +95,10 @@
 
 		@mixin atVeryLarge {
 			font-size: 320px;
+		}
+
+		@mixin at1920 {
+			font-size: 16.5vw;
 		}
 	}
 }

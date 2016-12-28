@@ -70,17 +70,13 @@
 
 	var _Lightbox2 = _interopRequireDefault(_Lightbox);
 
-	var _BTE = __webpack_require__(9);
-
-	var _BTE2 = _interopRequireDefault(_BTE);
-
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var mobileMenu = new _MobileMenu2.default();
 	new _RevealOnScroll2.default((0, _jquery2.default)(".design-div"), "80%");
+	new _RevealOnScroll2.default((0, _jquery2.default)(".design-div-smaller"), "80%");
 	var stickyHeader = new _StickyHeader2.default();
 	var lightbox = new _Lightbox2.default();
-	var bte = new _BTE2.default();
 
 /***/ },
 /* 1 */
@@ -11466,7 +11462,7 @@
 								(0, _jquery2.default)(matchingHeaderLink).addClass("befree-is-current-link");
 							}
 						},
-						offset: "-60%"
+						offset: "-30%"
 					});
 				});
 			}
@@ -11488,7 +11484,7 @@
 								(0, _jquery2.default)(matchingHeaderLink).addClass("design-is-current-link");
 							}
 						},
-						offset: "8%"
+						offset: "38%"
 					});
 
 					new Waypoint({
@@ -11503,7 +11499,7 @@
 								(0, _jquery2.default)(matchingHeaderLink).addClass("design-is-current-link");
 							}
 						},
-						offset: "-30%"
+						offset: "-85%"
 					});
 				});
 			}
@@ -11525,7 +11521,7 @@
 								(0, _jquery2.default)(matchingHeaderLink).addClass("features-is-current-link");
 							}
 						},
-						offset: "8%"
+						offset: "38%"
 					});
 
 					new Waypoint({
@@ -11937,44 +11933,6 @@
 	}();
 
 	exports.default = Lightbox;
-
-/***/ },
-/* 9 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _jquery = __webpack_require__(1);
-
-	var _jquery2 = _interopRequireDefault(_jquery);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	var BackgroundTextEffect = function () {
-		function BackgroundTextEffect() {
-			_classCallCheck(this, BackgroundTextEffect);
-
-			this.bte = (0, _jquery2.default)(".header-background-text");
-		}
-
-		_createClass(BackgroundTextEffect, [{
-			key: "events",
-			value: function events() {
-				this.bte.click(this.effect().bind(this));
-			}
-		}, {
-			key: "effect",
-			value: function effect() {
-				this.bte.addClass("header-background-text-effect");
-			}
-		}]);
-
-		return BackgroundTextEffect;
-	}();
 
 /***/ }
 /******/ ]);

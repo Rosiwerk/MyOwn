@@ -1,0 +1,8 @@
+.row-6 {
+	@mixin clearfix;
+	float: right;
+	display: inline-block;
+	width: 50%;
+	text-decoration: none;
+	position: relative;
+}
